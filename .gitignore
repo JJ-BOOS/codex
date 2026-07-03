@@ -1,0 +1,27 @@
+# Local assistant/runtime state
+.agents/
+.codex/
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+out/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and caches
+*.log
+.cache/
+.tmp/
+tmp/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
